@@ -10,12 +10,12 @@
   }
 
   button {
-    border:none;
     background:transparent;
     font-weight:600;
-    font-size: 1.125rem;
     color:var(--highlight);
+    font-size: 1.125rem;
     margin-top:4rem;
+    border:none;
   }
 
 }
@@ -23,19 +23,19 @@
 .post {
 
   strong {
+    color:var(--heading);
     font-size:1.75rem;
     font-weight: bold;
-    color:var(--heading);
   }
 
   p{
-    margin-top:0.5rem;
     font-size:1.125rem;
+    margin-top:0.5rem;
   }
 
   ul {
-    list-style: none;
     margin-top:1.5rem;
+    list-style: none;
     display: flex;
 
     & li {
